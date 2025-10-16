@@ -19,7 +19,21 @@ li a:hover {
 }
 
 a:hover {
-    opacity: 0.8;
+    opacity: 0.7;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+h1#title {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0%;
+    border: 2px dashed red; /* temporary boundry check */
 }
 
 #logo img {
@@ -29,17 +43,45 @@ a:hover {
     color: #f9faf8;
 }
 
-#text {
-    color: red;
+#main-image {
+    width: 33%;
+    height: auto;
+    border: 2px dashed red; /* temporary boundry check */
+}
+
+#mybutton {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 12%;
+    padding: 0.35rem 1.25rem;
+}
+
+.text {
+    color: #f9faf8;
     background-color: #1f2937;
-    margin: 0%;
+    margin: 0% 0% 2% 0%;
     border: 2px dashed red; /* temporary boundry check */
 }
 
 .header {
     background-color: #1f2937;
-    padding: 3rem 12rem 3rem 12rem;
+    padding: 1.5rem 8rem 4rem 8rem;
     display: flex;
     align-items: center;
+    border: 2px dashed red; /* temporary boundry check */
+}
+
+.first {
+    background-color: #1f2937;
+    border: 2px dashed red; /* temporary boundry check */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.first-left {
+    width: 32rem;
+    height: auto;
     border: 2px dashed red; /* temporary boundry check */
 }
