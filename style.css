@@ -1,3 +1,45 @@
 body {
     font-family: Roboto;
+    margin: 0%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+li a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: slategrey;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+#logo img {
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    color: #f9faf8;
+}
+
+#text {
+    color: red;
+    background-color: #1f2937;
+    margin: 0%;
+    border: 2px dashed red; /* temporary boundry check */
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 3rem 12rem 3rem 12rem;
+    display: flex;
+    align-items: center;
+    border: 2px dashed red; /* temporary boundry check */
 }
