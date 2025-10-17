@@ -36,11 +36,24 @@ h1#title {
     border: 2px dashed red; /* temporary boundry check */
 }
 
+h2#information-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 #logo img {
     width: 5%;
     height: 5%;
     border-radius: 50%;
     color: #f9faf8;
+}
+
+p.text {
+    color: #f9faf8;
+    background-color: #1f2937;
+    margin: 0% 0% 2% 0%;
+    border: 2px dashed red; /* temporary boundry check */
 }
 
 #main-image {
@@ -49,18 +62,18 @@ h1#title {
     border: 2px dashed red; /* temporary boundry check */
 }
 
+#box-image {
+    width: 18%;
+    height: auto;
+    border-radius: 5%;
+    border: 0.2rem solid #3882f6;
+}
+
 #mybutton {
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 12%;
     padding: 0.35rem 1.25rem;
-}
-
-.text {
-    color: #f9faf8;
-    background-color: #1f2937;
-    margin: 0% 0% 2% 0%;
-    border: 2px dashed red; /* temporary boundry check */
 }
 
 .header {
@@ -84,4 +97,29 @@ h1#title {
     width: 32rem;
     height: auto;
     border: 2px dashed red; /* temporary boundry check */
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 8rem 0rem 8rem;
+    border: 2px dashed red; /* temporary boundry check */
+}
+
+.box-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    border: 2px dashed red; /* temporary boundry check */
+}
+.box-text {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 6rem 0rem 6rem;
+    border: 2px dashed red; /* temporary boundry check */
+    margin: 0rem 0rem 0rem 0rem;
+    gap: 8rem;
 }
