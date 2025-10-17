@@ -33,7 +33,6 @@ h1#title {
     font-size: 48px;
     font-weight: 900;
     margin: 0%;
-    border: 2px dashed red; /* temporary boundry check */
 }
 
 h2#information-header {
@@ -53,13 +52,19 @@ p.text {
     color: #f9faf8;
     background-color: #1f2937;
     margin: 0% 0% 2% 0%;
-    border: 2px dashed red; /* temporary boundry check */
+}
+
+footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 #main-image {
     width: 33%;
     height: auto;
-    border: 2px dashed red; /* temporary boundry check */
 }
 
 #box-image {
@@ -76,17 +81,54 @@ p.text {
     padding: 0.35rem 1.25rem;
 }
 
+#mybutton-2 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 12%;
+    padding: 0.35rem 1.25rem;
+    margin-left: 8rem;
+    border: 2px solid #f9faf8;
+}
+
+#quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    width: 60%;
+    margin-bottom: 0.8rem;
+}
+
+#quote-source {
+    margin-left: 36rem;
+}
+
 .header {
     background-color: #1f2937;
     padding: 1.5rem 8rem 4rem 8rem;
     display: flex;
     align-items: center;
+}
+
+.box-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.box-text {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 6rem 0rem 6rem;
+    margin: 0rem 0rem 0rem 0rem;
+    gap: 8rem;
+}
+
+.call {
     border: 2px dashed red; /* temporary boundry check */
 }
 
 .first {
     background-color: #1f2937;
-    border: 2px dashed red; /* temporary boundry check */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,7 +138,6 @@ p.text {
 .first-left {
     width: 32rem;
     height: auto;
-    border: 2px dashed red; /* temporary boundry check */
 }
 
 .second {
@@ -105,21 +146,25 @@ p.text {
     justify-content: center;
     align-items: center;
     margin: 0rem 8rem 0rem 8rem;
-    border: 2px dashed red; /* temporary boundry check */
 }
 
-.box-section {
+.third {
     display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    border: 2px dashed red; /* temporary boundry check */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0rem 4rem 0rem;
+    padding: 8rem;
+    background-color: #e5e7eb;
 }
-.box-text {
-    text-align: center;
+
+.fourth {
+    color: #f9faf8;
     display: flex;
-    justify-content: space-around;
-    padding: 0rem 6rem 0rem 6rem;
-    border: 2px dashed red; /* temporary boundry check */
-    margin: 0rem 0rem 0rem 0rem;
-    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 2rem;
+    margin: 5rem 30rem 5rem 30rem;
+    border-radius: 0.5rem;
 }
